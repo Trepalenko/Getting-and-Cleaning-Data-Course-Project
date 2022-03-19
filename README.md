@@ -8,6 +8,8 @@ I submit a tidy data set (tidyDataSet.txt) and a code book (CodeBook.md) that de
 The present README.md file explains how the 'run_analysis.R' script work.
 Given that the script is run on a working directory that contains the "UCI HAR Dataset" with the train and test data, it will produce a txt file with the average of each variable of the data set for each activity and each subject.
 
+Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+
 R script called run_analysis.R that does the following. 
 1) Merges the training and the test sets to create one data set.
 2) Extracts only the measurements on the mean and standard deviation for each measurement. 
